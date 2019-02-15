@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script type="module" src="./my-component.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <my-component>
+            <child-component>
+                Put me in the slot of child component
+                <grand-child-component>
+                    Oh hai from the grand child slot.
+                </grand-child-component>
+            </child-component>
+            <child-component-two></child-component-two>
+        </my-component>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "mrj-wc",
+  "version": "1.0.0",
+  "description": "Testing Web Components",
+  "main": "index.js",
+  "dependencies": {
+    "lit-element": "^2.0.1",
+    "owc-dev-server": "^0.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "owc-dev-server -o"
+  },
+  "author": "jmckenney",
+  "license": "ISC"
+}
